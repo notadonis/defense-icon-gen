@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
-import { sanitizeSvg } from '@/lib/sanitizeSvg';
+import { sanitizeSvg } from '../../../lib/sanitizeSvg';
 
-export const runtime = 'edge';
 
 export async function POST(req: Request) {
   try {
